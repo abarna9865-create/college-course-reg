@@ -1,0 +1,13 @@
+Student records 
+
+CREATE TABLE STUDENTS (
+ Student_ID int PRIMARY KEY,
+ Student_Name VARCHAR(100),
+ Department VARCHAR(50),
+ Email VARCHAR(100)
+);
+
+INSERT INTO STUDENTS VALUES (101, 'Ravi', 'CS', 'ravi@gmail.com');
+INSERT INTO STUDENTS VALUES (102, 'Priya', 'CS', 'priya@gmail.com');
+
+SELECT*FROM STUDENTS;
